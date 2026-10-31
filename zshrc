@@ -88,3 +88,5 @@ fi
 
 # Hook direnv but only if direnv is installed
 if (( $+commands[direnv] )); then eval "$(direnv hook zsh)"; fi
+export GITHUB_USERNAME="dein-github-username"
+export GITHUB_USERNAME="JPro-create"
